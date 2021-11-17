@@ -40,4 +40,24 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+p {
+    font-size: 1.125rem;
+}
+
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
