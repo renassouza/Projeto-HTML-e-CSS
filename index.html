@@ -36,5 +36,32 @@
                      <option value="other">Other</option>
                  </select>
              </div>
+
+             <div class="form-group">
+                 <p>Would you recommend Meninas In Tech to a friend?</p>
+                 <label><input  name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Definitely</label>
+                 <label><input  name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label>
+                 <label><input  name="user-recommend" value="not-sure" type="radio" class="input-radio" />Not sure</label>
+             </div>
+
+             <div class="form-group">
+                 <p>What is your faborite feature of Meninas In Tech?</p>
+                 <select id="most-like" name="mostLike" class="form-control" required>
+                     <option disabled selected  value>Selection an option</option>
+                     <option value="emotionalEmpowerment">Emotional Empowerment</option>
+                     <option value="technologyAndProgrammingTraining">Technology and programming training</option>
+                     <option value="mentoring">Mentoring</option>
+                 </select>
+             </div>
+            
+             <div class="form-group">
+                 <p>What other programming language would you like to learn? <span class="clue">(Check all that apply)</span></p>
+                 <label><input name="prefer" value="java" type="checkbox" class="input-checkbox" />Java</label>
+                 <label><input name="prefer" value="javaScript" type="checkbox" class="input-checkbox" />JavaScript</label>
+                 <label><input name="prefer" value="kotlin" type="checkbox" class="input-checkbox" />Kotlin</label>
+                 <label><input name="prefer" value="php" type="checkbox" class="input-checkbox" />PHP</label>
+                 <label><input name="prefer" value="python" type="checkbox" class="input-checkbox" />Python</label>
+                 <label><input name="prefer" value="swift" type="checkbox" class="input-checkbox" />Swift</label>
+             </div>
         </form>
 </html>
